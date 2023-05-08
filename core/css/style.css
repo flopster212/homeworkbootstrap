@@ -1,0 +1,46 @@
+
+
+.header {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    background-color: bisque;
+    align-content: space-between;
+    flex-direction: column;
+}
+
+.header h1{
+    margin-left: 60px;
+    align-self:center;
+}
+
+.nav {
+    display: inline;
+    text-align: end;
+    align-items: flex-end;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: rgba(0, 0, 255, 0.192);
+}
+
+.main{
+    height: 70%;
+    width: 100%;
+}
+
